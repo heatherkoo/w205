@@ -39,15 +39,27 @@ tail -n +2 "$OLD_FILE3" >$NEW_FILE3
 tail -n +2 "$OLD_FILE4" >$NEW_FILE4
 tail -n +2 "$OLD_FILE5" >$NEW_FILE5
 
-# create hdfs directory
+# create main hdfs directory 
+
 hdfs dfs -mkdir /user/w205/hospital_compare
 
-#copy files to hfs
-hdfs dfs -put $NEW_FILE1 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE2 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE3 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE4 /user/w205/hospital_compare
-hdfs dfs -put $NEW_FILE5 /user/w205/hospital_compare
+
+#create hfs directory for each file and copy each file to hdfs
+
+hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
+hdfs dfs -put $NEW_FILE1 /user/w205/hospital_compare/hospitals
+
+hdfs dfs -mkdir /user/w205/hospital_compare/effective_care
+hdfs dfs -put $NEW_FILE2 /user/w205/hospital_compare/effective_care
+
+hdfs dfs -mkdir /user/w205/hospital_compare/readmissions
+hdfs dfs -put $NEW_FILE3 /user/w205/hospital_compare/readmissions
+
+hdfs dfs -mkdir /user/w205/hospital_compare/measures
+hdfs dfs -put $NEW_FILE4 /user/w205/hospital_compare/measures
+
+hdfs dfs -mkdir /user/w205/hospital_compare/surveys_responses
+hdfs dfs -put $NEW_FILE5 /user/w205/hospital_compare/surveys_responses
 
 #change directory back to original
 cd $MY_CWD
