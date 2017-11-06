@@ -1,0 +1,13 @@
+The 10 hospitals that are best models of high-quality care:
+030105  BANNER HEART HOSPITAL                                        
+450023	CITIZENS MEDICAL CENTER	
+170186	KANSAS HEART HOSPITAL	
+280129	NEBRASKA ORTHOPAEDIC HOSPITAL
+360077	FAIRVIEW HOSPITAL	
+430014	AVERA ST LUKES
+430095	AVERA HEART HOSPITAL OF SOUTH DAKOTA
+260006	MOSAIC LIFE CARE AT ST JOSEPH	
+140186	RIVERSIDE MEDICAL CENTER
+160029	MERCY HOSPITAL
+
+These hospitals have the maximum overall rating (5) but also scored highly compared to the national average on 7 different measures. 
