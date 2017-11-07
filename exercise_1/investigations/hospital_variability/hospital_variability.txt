@@ -1,0 +1,7 @@
+For this question, I used the readmissions and effective care data sets.  Most readmissions procedural measures were measured in terms of rates of complications, or death rates.  There was one measure which appeared to be a raw number (PSI_4_SURG_COMP) of deaths, which made it harder to compare in terms of variability between hospitals, as number of deaths will also increase as the number of patients increase, and is not a good indicator of procedural quality.  
+
+In the effective care data set, I found several measures which were not indicators of procedural quality- such as Emergency Room Volume.  I only included measures from this data set which appeared to be scored in measureable success rates.  
+
+I found that overall, the procedures measured in the effective care data set had greatest variability between hospitals (most ranging between 0% and 100%).  I infer that this may be because some procedures are different between hospitals and states based on state law, and effective and timely care measures are not required amongst all hospitals ( for example, OP_29, Endoscopy/polyp surveillance).
+
+

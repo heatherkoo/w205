@@ -1,0 +1,16 @@
+This approach takes a similar route as my approach in finding the best hospitals.  I calculated the average overall hospital rating for each state, and also the average overall hospital measure rating for the state, and found the states  with the 10 best scores.
+
+I did note that there were several states in which hospital rating information was not available.
+
+
+State	Average Overall Hosp	Average Measure Rating
+SD      2.2474747474747474      3.8571                                          
+DE	2.0714285714285716	3.6667
+WI	2.306889149102264	3.6111
+MN	2.2487489911218725	3.5316
+ID	2.2150072150072155	3.5263
+IN	2.2275510204081623	3.4815
+NH	2.080769230769231	3.48
+CO	2.212301587301588	3.451
+UT	2.196398046398046	3.4483
+ME	2.1055059523809527	3.4375

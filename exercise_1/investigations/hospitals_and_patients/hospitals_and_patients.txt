@@ -1,0 +1,8 @@
+Average scores for hospital quality and procedural variability appear to be correlated with patient survey responses with a correlation coefficient of approximately 0.6.
+
+hospital quality correlation	procedual variabilty correlation
+0.5934397027854442      	0.5935829682364789  
+
+I approached this question by calculating the average procedural variability (similar to question 1) for each hospital, by averaging the national comparison scores for each measure for every hospital.  For survey responses, I averaged all 7 measures (excluding the overall hospital quality survey response) for each hospital.  Then, I joined the data sets and calculated a correlation coefficient for both the overall ratings, and each average procedural rating between the tables.
+
+

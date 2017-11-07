@@ -27,5 +27,6 @@ concat (substr(measure_end_dt, 7, 4),
 ) as measure_end_dt,
 footnote
 from effective_care
+where measure_id in('OP_29','PC_01','VTE_5','OP_30','OP_31','OP_2','OP_23','OP_4')
 ;
 
